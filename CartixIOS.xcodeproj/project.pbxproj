@@ -6,6 +6,11 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2D654ADC309570AF00DFF24B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D654ADB309570AF00DFF24B /* Main.storyboard */; };
+		2D654ADE309570E100DFF24B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D654ADD309570E100DFF24B /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2D654AB030956A9400DFF24B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		2D654AA230956A9300DFF24B /* CartixIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartixIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D654AAF30956A9400DFF24B /* CartixIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartixIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D654AB930956A9400DFF24B /* CartixIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartixIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D654ADB309570AF00DFF24B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2D654ADD309570E100DFF24B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +50,11 @@
 		2D654ABC30956A9400DFF24B /* CartixIOSUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CartixIOSUITests;
+			sourceTree = "<group>";
+		};
+		2D654ACB30956C2B00DFF24B /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +81,9 @@
 		2D654A9930956A9300DFF24B = {
 			isa = PBXGroup;
 			children = (
+				2D654ADD309570E100DFF24B /* Launch Screen.storyboard */,
+				2D654ADB309570AF00DFF24B /* Main.storyboard */,
+				2D654ACB30956C2B00DFF24B /* docs */,
 				2D654AA430956A9300DFF24B /* CartixIOS */,
 				2D654AB230956A9400DFF24B /* CartixIOSTests */,
 				2D654ABC30956A9400DFF24B /* CartixIOSUITests */,
@@ -101,6 +116,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2D654AA430956A9300DFF24B /* CartixIOS */,
+				2D654ACB30956C2B00DFF24B /* docs */,
 			);
 			name = CartixIOS;
 			productName = CartixIOS;
@@ -197,6 +213,8 @@
 		2D654AA030956A9300DFF24B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				2D654ADC309570AF00DFF24B /* Main.storyboard in Resources */,
+				2D654ADE309570E100DFF24B /* Launch Screen.storyboard in Resources */,
 			);
 		};
 		2D654AAD30956A9400DFF24B /* Resources */ = {
